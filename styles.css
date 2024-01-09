@@ -31,3 +31,20 @@ nav a:hover {
     background-color: #ddd;
     color:black;
 }
+
+.imagem-container-japao {
+    width: 100%;
+    background-image: url('Banner\ Japão.png'); /* Corrigido o caminho da imagem */
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  #texto-container-japão {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    color: #ffffff; /* Defina a cor do texto, se necessário */
+}
