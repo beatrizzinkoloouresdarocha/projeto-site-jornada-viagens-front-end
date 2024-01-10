@@ -58,3 +58,14 @@ nav a:hover {
     margin: 10px 0; /* Adicione um espaçamento entre os parágrafos */
     text-align: left; /* Alinha os parágrafos à esquerda */
 }
+.destinosdaexcursao {
+    /* Adicione outras propriedades conforme necessário para a div principal */
+}
+
+.titulodestinosdaexcursao {
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+.titulodestinosdaexcursao h2 {
+    margin: 0; /* Remova a margem padrão para evitar espaços indesejados */
+}
