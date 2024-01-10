@@ -35,18 +35,26 @@ nav a:hover {
 .imagem-container-japao {
     width: 100%;
     background-image: url('Banner\ Japão.png'); 
-    background-size: cover;
+    background-size: 100%; /* Defina um valor menor para reduzir a imagem */
     background-position: center; 
     background-repeat: no-repeat; 
     display: flex;
-    justify-content: center; /* Alterado para centralizar horizontalmente */
-    align-items: center; /* Alterado para centralizar verticalmente */
-    height: 100vh; 
+    justify-content: left;
+    align-items: flex-start; 
+    height: 620px; 
 }
   
-#texto-container-japão {
+#texto-container-japao {
     text-align: center;
     color: #ffffff;
-    margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-left:50px;
+}
+#texto-container-japao h2 {
+    font-size: 2em; /* Ajuste o tamanho do título conforme necessário */
+}
+#texto-container-japao p {
+    font-size: 1.5em;
+    margin: 10px 0; /* Adicione um espaçamento entre os parágrafos */
+    text-align: left; /* Alinha os parágrafos à esquerda */
 }
