@@ -60,6 +60,13 @@ nav a:hover {
 }
 .destinosdaexcursao {
     /* Adicione outras propriedades conforme necessário para a div principal */
+    
+}
+
+.divdestinosparteinferior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .titulodestinosdaexcursao {
