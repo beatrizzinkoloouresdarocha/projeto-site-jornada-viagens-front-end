@@ -69,3 +69,15 @@ nav a:hover {
 .titulodestinosdaexcursao h2 {
     margin: 0; /* Remova a margem padrão para evitar espaços indesejados */
 }
+
+.internadestinosexcursao {
+    display: inline-block;
+    width: 48%; /* Define a largura desejada para cada div */
+    margin: 10px; /* Adiciona margem entre as divs (opcional) */
+    vertical-align: top; /* Alinha as divs no topo */ 
+}
+
+.internadestinosexcursao h2 {
+    color: blue;
+
+} 
