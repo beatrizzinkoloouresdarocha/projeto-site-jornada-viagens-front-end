@@ -124,11 +124,24 @@ nav a:hover {
 }
 
 .Pagamento {
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
 }
 
-#divpagamentoparteesquerda{
-   
+#divpagamentoinferior{
+display: flex;
+}
+
+
+#divpagamentopartedireita {
+    flex: 1;
+    order: 2; 
+    align-items: center; /* Centraliza verticalmente os itens */
+}
+
+#divpagamentoparteesquerda {
+    flex: 1;
+    order: 1;
+    align-items: center; /* Centraliza verticalmente os itens */
 }
