@@ -122,3 +122,9 @@ nav a:hover {
 #divdestinotokyo button {
     margin-left: 137px;
 }
+
+.Pagamento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
