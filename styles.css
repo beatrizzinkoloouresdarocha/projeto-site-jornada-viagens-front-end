@@ -98,5 +98,12 @@ nav a:hover {
     width: 588px; /* Ajusta a largura para ocupar 100% do contêiner pai */
     height: 452px; /* Mantém a proporção original da imagem */
     display: block; /* Remove espaços extras abaixo da imagem */
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+#img-tokyo {
+    margin-left: 142px;
+}
+
+#img-osaka {
+    margin-right: 131px;
 }
