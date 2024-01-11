@@ -145,3 +145,14 @@ display: flex;
     order: 1;
     align-items: center; /* Centraliza verticalmente os itens */
 }
+
+.Pagamento h2 {
+    text-align: left;
+    margin-left: 620px;
+}
+
+#divpagamentoparteesquerda p{
+    text-align: left;
+    margin-left:50px;
+
+}
