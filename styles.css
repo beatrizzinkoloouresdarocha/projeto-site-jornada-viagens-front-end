@@ -179,3 +179,10 @@ width:780px;
 #divpagamento button {
     margin-left: 142px;
 }
+
+#Depoimentosparteinferior{
+display: flex;
+justify-content: space-between;
+margin-left: 100px;
+margin-left: 100px;
+}
