@@ -115,10 +115,6 @@ nav a:hover {
     margin-left: 140px;
 }
 
-.botaosaibamaisdestinoexcursao{
-    background-color:#B81515;
-}
-
 #divdestinotokyo button {
     margin-left: 137px;
 }
@@ -175,8 +171,9 @@ margin-top: 20px;
 width:780px;
 }
 
-.botaosaibamaispagamento{
+.botaolinkexternopaginainicial{
     background-color:#B81515;
+    color: #ffffff;
 }
 
 #divpagamento button {
