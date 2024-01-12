@@ -135,13 +135,14 @@ display: flex;
 
 
 #divpagamentopartedireita {
-    flex: 1;
+    flex: 1 0 70%;
     order: 2; 
     align-items: center; /* Centraliza verticalmente os itens */
+
 }
 
 #divpagamentoparteesquerda {
-    flex: 1;
+    flex: 1 0 30%;
     order: 1;
     align-items: center; /* Centraliza verticalmente os itens */
 }
@@ -169,7 +170,7 @@ margin-right: 10px;
 margin-right: 20px;
 }
 #imagemmontagemjapao3{
-margin-right: 50px;
-margin-top: 30px;
-width: px;
+margin-right: 145px;
+margin-top: 50px;
+width:780px;
 }
