@@ -189,16 +189,24 @@ margin-right:100px;
 .divdepoimentos {
     width: 25%;
     margin-right: 30px;
+    margin-bottom: 20px; /* Adicionei um espaçamento inferior para separar os depoimentos verticalmente */
+    float: left; /* Use float para alinhar os depoimentos lado a lado */
 }
 
-#depoimento1 {
-
+#depoimento 1{
+margin-right: 30px;
+margin-bottom: 20px; /* Adicionei um espaçamento inferior para separar os depoimentos verticalmente */
+float:left; /* Use float para alinhar os depoimentos lado a lado */
 }
 
-#depoimento2 {
-margin-left: 73px;
+/* Aplicando margem à direita para os dois primeiros depoimentos */
+#depoimento1, #depoimento2, #depoimento3 {
+margin-right: 60px;
+margin-bottom: 20px;
+float: left; /* Use float para alinhar os depoimentos lado a lado */
 }
 
+/* Não é necessário adicionar margem à direita para o último depoimento */
 #depoimento3 {
-
+margin-right: 0;
 }
