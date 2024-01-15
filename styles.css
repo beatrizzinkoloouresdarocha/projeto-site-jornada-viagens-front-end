@@ -211,3 +211,8 @@ line-height: 0.75; /* Ajuste o valor conforme necessário para reduzir o espaça
 #depoimento3 {
 margin-right: 150px;
 }
+
+.Depoimentos h2 {
+    font-size: 30px; /* Ajuste o valor conforme necessário para o tamanho do texto */
+    font-weight: bold; /* Adiciona negrito ao texto */
+}
