@@ -187,13 +187,13 @@ margin-right:100px;
 }
 
 .divdepoimentos {
-    width: 25%;
+    width: 30%;
     margin-right: 30px;
     margin-bottom: 20px; /* Adicionei um espaçamento inferior para separar os depoimentos verticalmente */
     float: left; /* Use float para alinhar os depoimentos lado a lado */
 }
 
-#depoimento 1{
+#depoimento1{
 margin-right: 30px;
 margin-bottom: 20px; /* Adicionei um espaçamento inferior para separar os depoimentos verticalmente */
 float:left; /* Use float para alinhar os depoimentos lado a lado */
@@ -204,9 +204,10 @@ float:left; /* Use float para alinhar os depoimentos lado a lado */
 margin-right: 60px;
 margin-bottom: 20px;
 float: left; /* Use float para alinhar os depoimentos lado a lado */
+line-height: 0.75; /* Ajuste o valor conforme necessário para reduzir o espaçamento entre as linhas */
 }
 
 /* Não é necessário adicionar margem à direita para o último depoimento */
 #depoimento3 {
-margin-right: 0;
+margin-right: 190px;
 }
