@@ -216,3 +216,7 @@ margin-right: 150px;
     font-size: 30px; /* Ajuste o valor conforme necessário para o tamanho do texto */
     font-weight: bold; /* Adiciona negrito ao texto */
 }
+
+.depoimentoinferior {
+    display: flex;
+}
