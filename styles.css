@@ -224,7 +224,7 @@ margin-right: 150px;
 .avaliacao-estrelas {
     font-size: 25px;
     unicode-bidi: bidi-override;
-    color: #c5c5c5;
+    color: #B81515;
     position: relative;
     display: inline-block;
 }
@@ -245,5 +245,5 @@ margin-right: 150px;
 .avaliacao-estrelas:hover:before,
 .avaliacao-estrelas:hover ~ span:before {
     content: '☆☆☆☆☆';
-    color: #f8d64e; /* cor da estrela durante o hover */
+    color: #B81515; /* cor da estrela durante o hover */
 }
