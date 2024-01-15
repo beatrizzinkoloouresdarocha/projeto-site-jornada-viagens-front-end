@@ -220,3 +220,30 @@ margin-right: 150px;
 .depoimentoinferior {
     display: flex;
 }
+
+.avaliacao-estrelas {
+    font-size: 25px;
+    unicode-bidi: bidi-override;
+    color: #c5c5c5;
+    position: relative;
+    display: inline-block;
+}
+
+.avaliacao-estrelas span {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.avaliacao-estrelas:before {
+    content: '★★★★★';
+}
+
+.avaliacao-estrelas:hover:before,
+.avaliacao-estrelas:hover ~ span:before {
+    content: '☆☆☆☆☆';
+    color: #f8d64e; /* cor da estrela durante o hover */
+}
