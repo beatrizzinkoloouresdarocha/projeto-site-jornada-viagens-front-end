@@ -263,7 +263,9 @@ margin-right: 150px;
 
 #texto-container-rodape{
     display: flex;
-    
+    justify-content: space-between;
 }
 
-  
+#texto-container-rodape-lado-direito{
+    margin-right: 40PX;
+}
