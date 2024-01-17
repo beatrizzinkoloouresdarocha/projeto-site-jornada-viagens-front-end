@@ -13,6 +13,8 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav li {
@@ -52,6 +54,7 @@ nav a:hover {
 }
 #texto-container-japao h2 {
     font-size: 2em; /* Ajuste o tamanho do título conforme necessário */
+    text-align: left;
 }
 #texto-container-japao p {
     font-size: 1.5em;
@@ -275,3 +278,9 @@ margin-right: 150px;
     display: flex;
     justify-content: space-evenly;
 }
+
+#menuidioma{
+    display: flex;
+    align-items: center;
+  }
+  
