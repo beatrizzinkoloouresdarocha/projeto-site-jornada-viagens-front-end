@@ -270,3 +270,8 @@ margin-right: 150px;
 #texto-container-rodape-lado-direito{
     margin-right: 160px;
 }
+
+#rodapeacessenossasredesicones {
+    display: flex;
+    justify-content: space-evenly;
+}
