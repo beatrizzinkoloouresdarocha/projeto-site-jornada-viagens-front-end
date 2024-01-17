@@ -259,6 +259,7 @@ margin-right: 150px;
     width: 97%; /* Ajusta a largura do rodapé para 80% da largura do contêiner pai */
     margin: 0 auto; /* Centraliza o rodapé no contêiner pai usando margens automáticas */
     height: 180px;
+    align-items: center; /* Centraliza os itens verticalmente */
 }
 
 #texto-container-rodape{
@@ -267,5 +268,5 @@ margin-right: 150px;
 }
 
 #texto-container-rodape-lado-direito{
-    margin-right: 160PX;
+    margin-right: 160px;
 }
